@@ -1,0 +1,62 @@
+body {
+  background-color: red;
+  color: white;
+  background-image: repeating-radial-gradient(red, yellow);
+  height: 1000px;
+}
+p {
+  color: rgb(15, 9, 1);
+  text-align: center;
+  text-decoration: dotted;
+  text-transform: uppercase;
+  text-shadow: 6px;
+  animation-name: butt;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+button:hover {
+  background-color: rgb(227, 242, 15);
+  width: 400px;
+  height: 400px;
+  height: 400px;
+  transition-duration: 2s;
+}
+div {
+  height: 400px;
+  width: 400px;
+  background-color: #fff;
+  animation-name: butt;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  position: sticky;
+  top: 1px;
+}
+div:hover {
+  width: 400px;
+  height: 400px;
+  height: 400px;
+  transition-duration: 2s;
+  transform-style: flat;
+}
+@keyframes butt {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    background-color: black;
+  }
+}
+.red {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+.reed {
+  position: sticky;
+  top: 1px;
+}
